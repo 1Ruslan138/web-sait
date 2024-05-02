@@ -1,0 +1,52 @@
+.card {
+    transition: transform 0.2s;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#welcome-message {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.add-to-cart-btn,
+.remove-from-cart-btn {
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.add-to-cart-btn {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.remove-from-cart-btn {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+}
+
+.remove-from-cart-btn:hover {
+    background-color: #bd2130;
+    border-color: #bd2130;
+}
